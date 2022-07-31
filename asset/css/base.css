@@ -22,6 +22,10 @@ html{
     box-sizing: border-box;
 }
 
+.wide {
+    width: 1200px;
+}
+
 .grid{
     width: 1200px;
     max-width: 100%;
@@ -35,4 +39,12 @@ html{
 .grid__row {
     display: flex;
     flex-wrap: wrap;
+}
+
+.mb-5{
+    margin-bottom: 5px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
 }
