@@ -775,9 +775,7 @@ img.category__avatar-shopeeMall-img {
   color: var(--primary-color);
 }
 /* Ship filter */
-.fiter-selection {
-  /* padding: 20px 0; */
-}
+
 .fiter-selection__heading {
   font-size: 1.5rem;
   color: var(--text-color);
@@ -849,6 +847,7 @@ img.category__avatar-shopeeMall-img {
   box-shadow: 0 2px 3px #e8e8e8;
   display: none;
   animation: fadeIn ease-in 0.1s;
+  padding: 0 14px;
 }
 .select-input__option::before {
   content: "";
@@ -862,6 +861,7 @@ img.category__avatar-shopeeMall-img {
 .select-input__option-item {
   padding: 12px;
   cursor: pointer;
+  list-style-type: none;
 }
 .select-input__option-item:hover span {
   color: var(--primary-color);
