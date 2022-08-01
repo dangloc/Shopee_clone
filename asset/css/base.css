@@ -24,11 +24,18 @@ html {
   box-sizing: border-box;
 }
 
+
 /* Responsive */
-.grid {
-  width: 1200px;
-  max-width: 100%;
-  margin: 0 auto;
+
+.wide {
+    width: 1200px;
+}
+
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+
 }
 
 .grid_full-width {
@@ -36,6 +43,7 @@ html {
 }
 
 .grid__row {
+
   display: flex;
   flex-wrap: wrap;
   margin-left: -4px;
@@ -165,3 +173,16 @@ html {
   color: var(--white-color);
   background-color: var(--primary-color);
 }
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mb-5{
+    margin-bottom: 5px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
