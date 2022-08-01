@@ -1045,6 +1045,7 @@ img.category__avatar-shopeeMall-img {
 }
 .select-input__option {
   position: absolute;
+  padding: 0 14px;
   width: 200px;
   top: 110%;
   right: 0;
@@ -1067,6 +1068,7 @@ img.category__avatar-shopeeMall-img {
 .select-input__option-item {
   padding: 12px;
   cursor: pointer;
+  list-style: none;
 }
 .select-input__option-item:hover span {
   color: var(--primary-color);
